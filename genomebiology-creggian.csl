@@ -137,11 +137,11 @@
                <group suffix=".">
                   <text macro="author"/>
                   <text macro="title" suffix=". "/>
-                  <group suffix=", " delimiter=" ">
-                     <text variable="container-title" form="short" font-style="italic"/>
+                  <group suffix=";" delimiter=" ">
+                     <text variable="container-title" form="short"/>
                      <text macro="cite-date"/>
                   </group>
-                  <text variable="volume" font-weight="bold"/>
+                  <text variable="volume"/>
                   <text variable="page" prefix=":"/>
                </group>
             </else>
