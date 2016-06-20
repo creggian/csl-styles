@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only">
    <info>
-      <title>Genome Biology Journal (creggian)</title>
+      <title>Genome Biology Journal</title>
       <id>http://www.zotero.org/styles/genomebiology</id>
       <link href="http://www.zotero.org/styles/genomebiology" rel="self"/>
       <author>
@@ -52,6 +52,16 @@
                </date>
             </group>
          </if>
+      </choose>
+   </macro>
+   <macro name="title">
+      <choose>
+         <if type="bill book graphic legal_case motion_picture report song" match="any">
+            <text variable="title"/>
+         </if>
+         <else>
+            <text variable="title"/>
+         </else>
       </choose>
    </macro>
    <macro name="publisher">
