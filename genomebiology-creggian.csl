@@ -93,7 +93,7 @@
          <text variable="citation-number"/>
       </layout>
    </citation>
-   <bibliography et-al-min="31" et-al-use-first="30">
+   <bibliography et-al-min="7" et-al-use-first="6">
       <layout>
          <text variable="citation-number" suffix=". "/>
          <choose>
