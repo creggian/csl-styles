@@ -138,9 +138,7 @@
                   <text macro="author"/>
                   <text macro="title" suffix=". "/>
                   <group suffix=";" delimiter=" ">
-                     <group suffix=".">
-                        <text variable="container-title" form="short"/>
-                     </group>
+                     <text variable="container-title" form="short" suffix="." strip-periods="true"/>
                      <text macro="cite-date"/>
                   </group>
                   <text variable="volume"/>
