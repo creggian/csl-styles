@@ -78,7 +78,7 @@
    <macro name="edition">
       <choose>
          <if is-numeric="edition">
-            <group delimiter=" " suffix=". ">
+            <group delimiter=" ">
                <number variable="edition" form="ordinal"/>
                <text term="edition" form="short" suffix="." strip-periods="true"/>
             </group>
@@ -103,7 +103,7 @@
                   <text macro="title" suffix="."/>
                   <text macro="edition"/>
                   <text macro="editor"/>
-                  <text macro="publisher" suffix=";"/>
+                  <text macro="publisher" suffix=";-"/>
                   <text macro="cite-date"/>
                </group>
             </if>
