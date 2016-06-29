@@ -66,12 +66,8 @@
    </macro>
    <macro name="publisher">
       <group delimiter=": ">
-         <group suffix=".">
-            <text variable="publisher-place"/>
-         </group>
-         <group suffix="-">
-            <text variable="publisher"/>
-         </group>
+         <text variable="publisher-place"/>
+         <text variable="publisher"/>
       </group>
    </macro>
    <macro name="cite-date">
@@ -142,7 +138,7 @@
                   <text macro="author"/>
                   <text macro="title" suffix=". "/>
                   <group suffix=";" delimiter=" ">
-                     <text variable="container-title" form="short"/>
+                     <text variable="container-title" form="short" suffix="."/>
                      <text macro="cite-date"/>
                   </group>
                   <text variable="volume"/>
